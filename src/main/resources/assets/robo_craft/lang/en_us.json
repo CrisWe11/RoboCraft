@@ -1,0 +1,7 @@
+{
+  "message.computation_furnace": "This furnace takes computation power into energy.",
+  "screen.computation_furnace": "Computation Furnace",
+  "block.robo_craft.computation_furnace": "Computation Furnace",
+  "item.robo_craft.computation_furnace": "Computation Furnace",
+  "itemGroup.robo_craft": "Robo Craft"
+}

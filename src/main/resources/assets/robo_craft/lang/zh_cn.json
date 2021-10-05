@@ -1,0 +1,7 @@
+{
+  "message.computation_furnace": "这个炉子把算力转换成能源",
+  "screen.computation_furnace": "算力炉",
+  "block.robo_craft.computation_furnace": "算力炉",
+  "item.robo_craft.computation_furnace": "算力炉",
+  "itemGroup.robo_craft": "Robo Craft"
+}

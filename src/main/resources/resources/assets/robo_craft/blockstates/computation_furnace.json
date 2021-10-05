@@ -1,0 +1,50 @@
+{
+  "variants": {
+    "facing=down,powered=false": {
+      "model": "robo_craft:block/computation_furnace",
+      "x": 90
+    },
+    "facing=up,powered=false": {
+      "model": "robo_craft:block/computation_furnace",
+      "x": -90
+    },
+    "facing=north,powered=false": {
+      "model": "robo_craft:block/computation_furnace"
+    },
+    "facing=south,powered=false": {
+      "model": "robo_craft:block/computation_furnace",
+      "y": 180
+    },
+    "facing=west,powered=false": {
+      "model": "robo_craft:block/computation_furnace",
+      "y": 270
+    },
+    "facing=east,powered=false": {
+      "model": "robo_craft:block/computation_furnace",
+      "y": 90
+    },
+    "facing=down,powered=true": {
+      "model": "robo_craft:block/computation_furnace_",
+      "x": 90
+    },
+    "facing=up,powered=true": {
+      "model": "robo_craft:block/computation_furnace_",
+      "x": -90
+    },
+    "facing=north,powered=true": {
+      "model": "robo_craft:block/computation_furnace_"
+    },
+    "facing=south,powered=true": {
+      "model": "robo_craft:block/computation_furnace_",
+      "y": 180
+    },
+    "facing=west,powered=true": {
+      "model": "robo_craft:block/computation_furnace_",
+      "y": 270
+    },
+    "facing=east,powered=true": {
+      "model": "robo_craft:block/computation_furnace_",
+      "y": 90
+    }
+  }
+}

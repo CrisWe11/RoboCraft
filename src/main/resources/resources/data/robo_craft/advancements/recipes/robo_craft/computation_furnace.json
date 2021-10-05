@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "robo_craft:computation_furnace"
+    ]
+  },
+  "criteria": {
+    "diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:diamond"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "robo_craft:computation_furnace"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "diamond",
+      "has_the_recipe"
+    ]
+  ]
+}

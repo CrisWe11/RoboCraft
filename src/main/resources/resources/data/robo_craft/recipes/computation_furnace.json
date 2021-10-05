@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "robo_craft",
+  "pattern": [
+    "###",
+    "#*#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:gems/diamond"
+    },
+    "*": {
+      "tag": "forge:dusts/redstone"
+    }
+  },
+  "result": {
+    "item": "robo_craft:computation_furnace"
+  }
+}
