@@ -33,7 +33,7 @@ public class BlockStates extends BlockStateProvider {
     private void registerComputationFurnace() {
         ResourceLocation rl = new ResourceLocation(RoboCraft.MODID, "block/computation_furnace");
         BlockModelBuilder modelBuilder = models().cube("computation_furnace", rl, rl, new ResourceLocation(RoboCraft.MODID, "block/computation_furnace_front"), rl,rl,rl);
-        BlockModelBuilder modelBuilderPowered = models().cube("computation_furnace_", rl, rl, new ResourceLocation(RoboCraft.MODID, "block/computation_furnace_powered"), rl,rl,rl);
+        BlockModelBuilder modelBuilderPowered = models().cube("computation_furnace_powered", rl, rl, new ResourceLocation(RoboCraft.MODID, "block/computation_furnace_powered"), rl,rl,rl);
         orientedBlock(Registration.COMPUTATION_FURNACE.get(), blockState -> {
             if(blockState.get(BlockStateProperties.POWERED))
                 return modelBuilderPowered;
