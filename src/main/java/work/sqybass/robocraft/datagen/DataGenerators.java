@@ -23,6 +23,7 @@ public class DataGenerators {
         if(event.includeServer()){
             logger.error("includeServer executed!");
             generator.addProvider(new Recipes(generator));
+            generator.addProvider(new LootTables(generator));
         }
         if (event.includeClient()){
             logger.error("includeClient executed!");
